@@ -1,0 +1,73 @@
+%  a) Create a matrix of zeros with 2 rows and 4 columns. 
+zeros(2,4) 
+
+%  b) Create the row vector of odd numbers 1 through 21, Using the colon operator. L = 1 3 5 7 9 11 13 15 17 19 21 
+L= 1:2:21 
+
+%  c) Find the sum S of vector L's elements.
+s=sum(L) 
+
+%  d) Form the matrix: A ={2 3 2;1 0 1} 
+A=[2,3,2;1,0,1]
+
+%  e) Create a 6 x 1 vector a of zeros using the zeros command.
+zeros(6,1)
+
+ % f) Create a row vector b from 325 to 405 with an interval of 20.
+b = 325:20:405
+
+%  g) Use sum to find the sum a of vector b's elements.
+sum(b)
+
+% i)Create two different vectors of the same length and add them.
+k = 1:5
+m = 6:10
+OR
+k1 = 1:1:5
+m1 = 6:1:10
+ADD
+add = k+m
+
+% j)Now subtract them.
+subtract = (k-m)
+
+% k)Perform element-by-element multiplication on them.
+element_multiplication = k.*m
+
+% l)Perform element-by-element division on them.
+element_divison = k./m
+
+% m)Raise one of the vectors to the second power.
+element_power = k.^m
+
+% n)Create a 3 x 3 matrix and display the first row of and the second column on the screen.
+g = [1 2 3;4 5 6;7 8 9]
+% displaying first row , second column
+g(1,2)
+
+% o)Create the following two vectors and add them. a = 5 3 1  b = 1 3 5
+a = [5 3 1]
+b = [1 3 5]
+% OR
+a1 = 5:-2:1
+b1 = 1:2:5
+ADD 
+a+b
+a1+b1
+
+% p)Now subtract them.
+a-b
+
+% q)Perform element-by-element multiplication on them.
+a.*b
+
+% r)Perform element-by-element division on them.
+a./b
+
+% s)Raise one of the vectors to the second power.
+a.^b
+
+% t)Create a 3 _ 3 matrix and display the first row of and the second column on the screen.
+g = [1 2 3;4 5 6;7 8 9]
+% displaying first row , second column
+g(1,2)
